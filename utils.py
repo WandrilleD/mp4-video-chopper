@@ -154,7 +154,7 @@ def create_commands( df_subparts , prefix = '' ):
                 cmd = "ffmpeg -ss {} -to {} -i {} {}".format(a,o,V,O)
                 cmds[destination].append(cmd)
 
-                print(O , file = OUT)
+                print(f"file '{O}'" , file = OUT)
         ## command to merge files 
         destination_mp4 = destination
         if not destination_mp4.endswith('.mp4'):

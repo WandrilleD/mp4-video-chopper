@@ -1,0 +1,4 @@
+source,start,stop,destination
+toy_data/part7_clip1.mp4,00:00:00,00:00:30,part1
+toy_data/part7_clip1.mp4,00:00:10,00:00:13,OUT
+toy_data/part7_clip1.mp4,00:00:32,00:01:40,part2
